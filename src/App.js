@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import EmployeeAuthButtons from './EmployeeAuthButtons';
+import Store from './Store';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Snehaaa */}
+      {/* <EmployeeAuthButtons/> */}
+      <Store/>
     </div>
   );
 }
 
 export default App;
+
+
+// const handleLoginClick = () => {
+//   // Implement your login logic here
+//   alert('Login clicked'); // Replace with actual login logic
+// };
+
+// const handleRegistrationClick = () => {
+//   // Implement your registration logic here
+//   alert('Registration clicked'); // Replace with actual registration logic
+// };
