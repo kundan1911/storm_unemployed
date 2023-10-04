@@ -37,7 +37,7 @@ const Store = () => {
       <div style={{backgroundColor:"#1565c0", height:"60px"}}>
       <p style={{marginRight:"20px", padding:"8px"}}><span style={{color:"white", fontWeight:"bold", marginRight:"1100px",marginTop:"100px", fontSize:"30px"}}>🎁Reward Zone</span><Button variant="contained" color="primary">{coins} 🪙</Button></p>
       </div>
-      <h2 style={{color:"#1565c0"}}>Redeem your 3rewards for free by using your Supercoins!</h2>
+      <h2 style={{color:"#1565c0"}}>Redeem your rewards for free by using your Supercoins!</h2>
       <div className="prize-list">
         {prizes.map((prize) => (
           <div key={prize.id} className="prize-item">
