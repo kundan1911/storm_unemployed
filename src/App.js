@@ -1,4 +1,5 @@
 import './App.css';
+import Auth from './Auth';
 import EmployeeAuthButtons from './EmployeeAuthButtons';
 import Store from './Store';
 
@@ -6,8 +7,9 @@ function App() {
   return (
     <div className="App">
       {/* Snehaaa */}
-      {/* <EmployeeAuthButtons/> */}
-      <Store/>
+      <EmployeeAuthButtons/>
+      {/* <Store/> */}
+      {/* <Auth/> */}
     </div>
   );
 }
