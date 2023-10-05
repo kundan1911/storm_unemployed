@@ -2,6 +2,7 @@ import './App.css';
 import Auth from './Auth';
 import EmployeeAuthButtons from './EmployeeAuthButtons';
 import Store from './Store';
+import UserInfoDialog from './UserInfoDialog';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <EmployeeAuthButtons/>
       {/* <Store/> */}
       {/* <Auth/> */}
+      <UserInfoDialog/>
     </div>
   );
 }
